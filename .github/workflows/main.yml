@@ -28,7 +28,7 @@ jobs:
         uses: victornpb/notion-jam@v0.0.10
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
-          NOTION_DATABASE: https://www.notion.so/Blog-51dd368eefaf424abc724963ecb99465
+          NOTION_DATABASE: https://www.notion.so/0cc8a2eebbc543029f6ba0ef6cf55c5a
           FILTER_PROP: Status
           FILTER_VALUES: Published
           CONVERT_PROP_CASE: snake
